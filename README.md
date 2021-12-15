@@ -1,47 +1,5 @@
 # Notebooks Jupyter
 
-## Les consignes
-
-Voici les grandes lignes de cette évaluation; les détails sont donnés dans
-la suite, mais dans les grandes lignes:
-
-* on vous fournit un dépôt git contenant un code de départ; en fait
-  principalement 3 fichiers contenant le squelette du code que vous devez écrire
-* dans une première phase de découverte, vous allez devoir comprendre par
-  vous-même comment sont conçus divers formats de stockage des notebooks Jupyter
-  (les .ipynb, les .py notamment)
-* vous devrez ensuite écrire le code demandé, sachant que les fichiers squelette
-  contiennent une description de ce qui est attendu, sous forme de code
-  exécutable (donc utile pour vos tests)
-* on vous propose également, sous forme de points bonus, d'écrire un rapport qui
-  explicite votre démarche
-* pour le rendu: les modalités exactes peuvent dépendre de votre professeur,
-  mais dans tous les cas vous devrez repoussez votre repo git sur github; vous
-  pouvez committer et pousser aussi souvent que vous le jugez utile, les copies
-  seront relevées à l'issue de la deadline qui est fixée au
-
-  > xxx Janvier 2022 à minuit
-* concernant le barême, la note sur 20 sera décomposée comme ceci
-  * 10 points pour la première partie (v0)
-  * 5 points pour la seconde partie (v1)
-  * 5 points pour la troisième partie (v2)
-
-  de plus  pour chaque partie, on donne
-  * la moitié des points pour les tests; cette note reflète le fait que votre
-    code fait bien ce qui est demandé
-  * un quart des points pour la lisibilité du code, ce qui prend en compte
-    * le respect de la norme de présentation pep008
-    * la présence de commentaires aux endroits épineux
-    * le choix des noms de variables, fonctions et classes
-  * un quart des points sont donnés sur le bon usage des concepts du langage
-
-* dernière recommandation, il est important que vous **validiez**, et
-  éventuellement déverminiez, vous-même votre code, en le lançant
-  interactivement, dans une session `ipython` par exemple; et cela **avant** de
-  lancer en aveugle la batterie de tests automatiques: ces derniers ne vous
-  donneront pas les messages d'erreur ni le contexte, c'est très peu adapté
-  pour du code qui vient juste d'être écrit.
-
 ## Projet et Livrables
 
 Ce dépôt git contient principalement les fichiers:
@@ -93,6 +51,14 @@ Seront pris en compte :
     à présenter les problèmes rencontrés, les options qui sont les vôtres, 
     à expliquer vos décisions (quelle option choisir), à démontrer les
     résultats (si/comment ça a fonctionné). 
+
+**Recommandation.** Il est important que vous validiez (et
+éventuellement déverminiez) votre code, en le lançant interactivement. 
+Cette démonstration de bon fonctionnement est typiquement à fournir dans 
+le notebook de rapport.
+
+Cette étape devra précéder la validation des tests automatiques qui ne
+constituent qu'un filet minimal de sécurité.
 
 ## Prélude
 
