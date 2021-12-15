@@ -70,7 +70,7 @@ Dans l'environnement conda `python-advanced-eval` :
 
   - Pour produire la documentation de par exemple `notebook_v0.py` :
 
-        python -m pydoc notebook_v0.py
+        python -m pydoc notebook_v0
 
   - Pour tester les exemples de code contenus dans un fichier :
 
