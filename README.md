@@ -17,6 +17,7 @@ Ce dépôt git contient principalement les fichiers:
 - [⚙️ `environment.yml`](environment.yml): fichier décrivant l'environnement
   conda `python-advanced-eval` associé à ce projet
 
+--------------------------------------------------------------------------------
 
 Votre clone de ce dépôt (votre rendu) devra au final comporter les fichiers :
 
