@@ -374,7 +374,7 @@ façon dont ils sont enregistrés dans les fichiers `.ipynb`.
 
 **💡 Si vous faites correctement votre travail, les classes `
 PyPercentSerializer`, ` Serializer`  et `Outliner` développées précedemment
-doivent fonctionner avec cette nouvelle version de la class `Notebook` !**.
+doivent fonctionner avec cette nouvelle version de la classe `Notebook` !**
 C'est une illustration de l'intérêt de l'encapsulation !
 #### **Question 15**: Construction des Notebooks
 
@@ -389,7 +389,7 @@ précédente.
 
 ### **Question 16**: Chargement depuis un fichier
 
-Notre class `Notebook` ne comprenant plus le format `.ipynb`, nous devons
+Notre classe `Notebook` ne comprenant plus le format `.ipynb`, nous devons
 extraire la logique de chargement dans une classe dédiée:
 
   - 🚀 **Développez les méthode de la class `NotebookLoader`.**
