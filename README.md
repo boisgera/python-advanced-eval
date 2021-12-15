@@ -427,7 +427,7 @@ Une autre transformation possible est la suppression des cellules
 
   - 🚀 **Développez les méthode de la class `MarkdownLesser`.**
 
-### Re-chargement depuis le format Py-Percent
+### **Question 19**: Re-chargement depuis le format Py-Percent
 
 Enfin, comme nous avons découplé `Notebook` de la structure JSON des fichiers
 `.ipynb`, on peut désormais faire le code nécessaire pour _recharger_ les
