@@ -72,15 +72,6 @@ Dans l'environnement conda `python-advanced-eval` :
 
         python -m pydoc notebook_v0.py
 
-    il est sans doute habile de stocker cette documentation dans un fichier
-    comme ceci (depuis un terminal bash)
-
-        python -m pydoc notebook_v0 > notebook_v0_doc.py
-
-    et remarquez qu'alors `notebook_v0_doc.py` contient une description de chacune
-    des fonctions que vous allez devoir écrire, avec des exemples que vous
-    pouvez copier-coller dans `ipython` pour tester votre code.
-
   - Pour tester les exemples de code contenus dans un fichier :
 
         python -m doctest notebook_v0.py
@@ -88,9 +79,9 @@ Dans l'environnement conda `python-advanced-eval` :
     Évidemment au tout début, le squelette qu'on vous fournit ne contient aucune
     implémentation, et à ce stade de nombreux tests échouent 😭.
 
-  - Prenez garde enfin à ne pas modifier les docstrings qui sont présents dans
+    Prenez garde enfin à ne pas modifier les docstrings qui sont présents dans
     les fichiers ébauche, ce qui pourrait produire des résultats de test
-    erronés  dans votre environnement, et vous induire en erreur
+    erronés dans votre environnement, et vous induire en erreur
 
 ## Format des notebooks (iypnb)
 
