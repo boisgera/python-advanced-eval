@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from black import re
-import notebook_v0_solution as toolbox
-from notebook_v1_solution import Serializer, PyPercentSerializer, Outliner
+import notebook_v0 as toolbox
+from notebook_v1 import Serializer, PyPercentSerializer, Outliner
 import pprint
 import json
 

@@ -20,8 +20,14 @@ jobs:
           activate-environment: notebook
           environment-file: environment.yml
 
-      - name: Run the doctests
-        run: python -m doctest notebook_v0.py notebook_v1.py notebook_v2.py
+      - name: Run the doctests (v0)
+        run: python -m doctest notebook_v0.py 
+
+      - name: Run the doctests (v1)
+        run: python -m doctest notebook_v1.py 
+
+      - name: Run the doctests (v2)
+        run: python -m doctest notebook_v2.py         
 
       - name: Prepare deployment (Ubuntu)
         if: matrix.os == 'ubuntu-latest'

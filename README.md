@@ -48,8 +48,7 @@ Ce dépôt git contient principalement les fichiers:
 
   - [🗒️ `README.md`](README.md): description du projet (ce document)
   - [📁 `samples`](samples): notebooks de référence, qui vont servir de cobaye
-    pour faire tourner votre code (notez bien que tous ces fichiers sont encodés
-    en UTF-8)
+    pour faire tourner votre code (encodés en UTF-8)
   - trois ébauches de programme
     - [🐍 `notebook_v0.py`](notebook_v0.py)
     - [🐍 `notebook_v1.py`](notebook_v1.py)
@@ -66,6 +65,7 @@ Votre clone de ce dépôt (votre rendu) devra au final comporter les fichiers :
 
   - 🐍 `notebook_v0.py`, `notebook_v1.py`  et `notebook_v0.py` : vos programmes
     finalisés.
+
   - 📘 `rapport.ipynb` : expériences commentées et analyses, documentation des
     développements, etc.. Vous êtes invité à y expliquer votre démarche, surtout
     lorsque vous avez rencontré des difficultés, et à y présenter les problèmes,
@@ -73,6 +73,32 @@ Votre clone de ce dépôt (votre rendu) devra au final comporter les fichiers :
     résultats (si/comment ça a fonctionné). Cette partie sera notée par des
     points bonus.
 
+Le projet est exigible le **20 Janvier 2022 à minuit.**
+
+Le barême affecte :
+
+  - 10 points à la première partie (v0)
+  
+  - 5 points pour la seconde partie (v1)
+  
+  - 5 points pour la troisième partie (v2)
+
+Seront pris en compte :
+
+  - Le bon fonctionnement des programmes (notamment, leur capacité à passer
+    les tests qui sont fournis).
+
+  - La lisibilité et l'organisation du code (choix des noms (variables,
+    fonctions, classes), commentaires aux endroits critiques,
+    respect des standards de formattage, etc.).
+
+  - Un usage adapté des concepts du langage.
+
+  - La capacité du rapport (notebook) à retracer et expliquer la démarche 
+    exploratoire qui est la vôtre (avant la phase de rédaction du programme),
+    à présenter les problèmes rencontrés, les options qui sont les vôtres, 
+    à expliquer vos décisions (quelle option choisir), à démontrer les
+    résultats (si/comment ça a fonctionné). 
 
 ## Prélude
 
