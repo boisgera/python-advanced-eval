@@ -1,0 +1,38 @@
+name: test
+on: [push]
+
+jobs:
+  main:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    defaults:
+      run:
+        shell: bash -l {0} 
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Activate Conda environment
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: notebook
+          environment-file: environment.yml
+
+      - name: Run the doctests
+        run: python -m doctest notebook_v0_solution.py notebook_v1_solution.py notebook_v2_solution.py
+
+      - name: Prepare deployment (Ubuntu)
+        if: matrix.os == 'ubuntu-latest'
+        run: rm .gitignore
+
+      - name: Deploy generated samples (Ubuntu)
+        if: matrix.os == 'ubuntu-latest'
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: outputs
+          FOLDER: "samples"
+          SINGLE_COMMIT: true
+          PRESERVE: true
