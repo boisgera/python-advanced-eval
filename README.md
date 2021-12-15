@@ -45,7 +45,7 @@ Seront pris en compte :
     fonctions, classes), commentaires aux endroits critiques,
     respect des standards de formatage, etc.).
 
-  - Un usage adapté des concepts du langage.
+  - l'usage que vous faites des concepts du langage.
 
   - La capacité du rapport à retracer et expliquer la démarche 
     exploratoire qui est la vôtre (avant la phase de rédaction du programme),
