@@ -43,7 +43,7 @@ Seront pris en compte :
 
   - La lisibilité et l'organisation du code (choix des noms (variables,
     fonctions, classes), commentaires aux endroits critiques,
-    respect des standards de formattage, etc.).
+    respect des standards de formatage, etc.).
 
   - Un usage adapté des concepts du langage.
 
