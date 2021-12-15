@@ -47,31 +47,25 @@ la suite, mais dans les grandes lignes:
 Ce dépôt git contient principalement les fichiers:
 
   - [🗒️ `README.md`](README.md): description du projet (ce document)
-  - [📁 `samples`](samples): notebooks de référence, qui vont servir de cobaye
-    pour faire tourner votre code (encodés en UTF-8)
-  - trois ébauches de programme
+
+  - [📁 `samples`](samples): notebooks de référence (encodés en UTF-8)
+
+  - trois squelettes de programme (avec documentation et tests)
     - [🐍 `notebook_v0.py`](notebook_v0.py)
     - [🐍 `notebook_v1.py`](notebook_v1.py)
     - [🐍 `notebook_v2.py`](notebook_v2.py)
 
-    que vous allez devoir compléter - chacun fait l'objet d'une section de cet
-    énoncé
-- [⚙️ `environment.yml`](environment.yml): fichier pour créer l'environnement
-  conda `python-advanced-eval` qui contient les modules Python dont vous aurez
-  besoin
+
+- [⚙️ `environment.yml`](environment.yml): fichier décrivant l'environnement
+  conda `python-advanced-eval` associé à ce projet
 
 
 Votre clone de ce dépôt (votre rendu) devra au final comporter les fichiers :
 
-  - 🐍 `notebook_v0.py`, `notebook_v1.py`  et `notebook_v0.py` : vos programmes
+  - 🐍 `notebook_v0.py`, `notebook_v1.py`  et `notebook_v0.py` : les programmes
     finalisés.
 
-  - 📘 `rapport.ipynb` : expériences commentées et analyses, documentation des
-    développements, etc.. Vous êtes invité à y expliquer votre démarche, surtout
-    lorsque vous avez rencontré des difficultés, et à y présenter les problèmes,
-    options (comment aborder le problème), décisions (quelle option choisir),
-    résultats (si/comment ça a fonctionné). Cette partie sera notée par des
-    points bonus.
+  - 📘 `rapport.ipynb` : un rapport (un notebook) documentant votre démarche
 
 Le projet est exigible le **20 Janvier 2022 à minuit.**
 
@@ -94,7 +88,7 @@ Seront pris en compte :
 
   - Un usage adapté des concepts du langage.
 
-  - La capacité du rapport (notebook) à retracer et expliquer la démarche 
+  - La capacité du rapport à retracer et expliquer la démarche 
     exploratoire qui est la vôtre (avant la phase de rédaction du programme),
     à présenter les problèmes rencontrés, les options qui sont les vôtres, 
     à expliquer vos décisions (quelle option choisir), à démontrer les
