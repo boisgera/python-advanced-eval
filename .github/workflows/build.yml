@@ -6,7 +6,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest]  #, windows-latest, macos-latest]
     defaults:
       run:
         shell: bash -l {0} 
@@ -21,7 +21,7 @@ jobs:
           environment-file: environment.yml
 
       - name: Run the doctests
-        run: python -m doctest notebook_v0_solution.py notebook_v1_solution.py notebook_v2_solution.py
+        run: python -m doctest notebook_v0.py notebook_v1.py notebook_v2.py
 
       - name: Prepare deployment (Ubuntu)
         if: matrix.os == 'ubuntu-latest'
