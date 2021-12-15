@@ -266,7 +266,7 @@ Vous êtes évidemment invités à utiliser vos travaux précédents comme réf�
 ainsi que les tests fournis, pour guider votre réalisation.
 #### **Question 9**: Chargement
 
-Le fichier `notebook_v0_objet.py` contient le squelette de la classe `Notebook`
+Le fichier `notebook_v0.py` contient le squelette de la classe `Notebook`
 représentant le notebook Jupyter ainsi que deux classes `CodeCell` et
 `MarkdownCell` représentant les différentes cellules.
 
