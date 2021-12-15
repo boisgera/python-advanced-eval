@@ -57,7 +57,7 @@ Seront pris en compte :
 éventuellement déverminiez) votre code, en le lançant interactivement. 
 Cette démonstration de bon fonctionnement est typiquement à fournir dans 
 le notebook de rapport.
-Cette étape devra précéder la validation des tests automatiques qui ne
+Cette étape devra précéder la validation par les tests automatiques qui ne
 constituent qu'un filet minimal de sécurité.
 
 ## Prélude
