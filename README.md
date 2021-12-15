@@ -78,10 +78,9 @@ Dans l'environnement conda `python-advanced-eval` :
 
     Évidemment au tout début, le squelette qu'on vous fournit ne contient aucune
     implémentation, et à ce stade de nombreux tests échouent 😭.
-
-    Prenez garde enfin à ne pas modifier les docstrings qui sont présents dans
-    les fichiers ébauche, ce qui pourrait produire des résultats de test
-    erronés dans votre environnement, et vous induire en erreur
+    (Prenez garde à ne pas modifier les docstrings qui sont présents dans
+    les squelettes de programmes si vous voulez que les tests restent
+    pertinents.)
 
 ## Format des notebooks (iypnb)
 
