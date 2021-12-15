@@ -21,7 +21,7 @@ Ce dépôt git contient principalement les fichiers:
 
 Votre clone de ce dépôt (votre rendu) devra au final comporter les fichiers :
 
-  - 🐍 `notebook_v0.py`, `notebook_v1.py`  et `notebook_v0.py` : les programmes
+  - 🐍 `notebook_v0.py`, `notebook_v1.py`  et `notebook_v2.py` : les programmes
     finalisés.
 
   - 📘 `rapport.ipynb` : un rapport (un notebook) documentant votre démarche
