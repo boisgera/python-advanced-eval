@@ -208,7 +208,7 @@ def to_starboard(ipynb, html=False):
     Usage:
 
         >>> ipynb = load_ipynb("samples/hello-world.ipynb")
-        >>> print(to_starboard(ipynb))
+        >>> print(to_starboard(ipynb)) # doctest: +NORMALIZE_WHITESPACE
         # %% [markdown]
         Hello world!
         ============
