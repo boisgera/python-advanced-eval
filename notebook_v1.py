@@ -141,10 +141,8 @@ class PyPercentSerializer:
             # Hello world!
             # ============
             # Print `Hello world!`:
-            <BLANKLINE>
             # %%
             print("Hello world!")
-            <BLANKLINE>
             # %% [markdown]
             # Goodbye! 👋
     """
