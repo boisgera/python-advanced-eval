@@ -228,9 +228,9 @@ def to_starboard(ipynb, html=False):
         >>> notebook_files = Path(".").glob("samples/*.ipynb")
         >>> for notebook_file in notebook_files:
         ...     ipynb = load_ipynb(notebook_file)
-        ...     starboard_html = to_starboard(ipynb, html=True)
+        ...     starboard_html_ = to_starboard(ipynb, html=True)
         ...     with open(notebook_file.with_suffix(".html"), "w", encoding="utf-8") as output:
-        ...         print(starboard_html, file=output)
+        ...         print(starboard_html_, file=output)
     """
     pass
 
